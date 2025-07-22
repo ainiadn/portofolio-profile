@@ -1,0 +1,112 @@
+/* ===== portfolio.css ===== */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Wix Madefor Display', sans-serif;
+  background-color: #f3dfe6;
+  color: #444;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: #6f6a77;
+}
+
+header .back {
+  font-size: 14px;
+  color: #8e8592;
+  text-decoration: none;
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+header .back:hover {
+  background-color: #ece7f0;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  text-align: center;
+  padding: 20px 40px 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project {
+  background: #d7c9dd;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.project h2 {
+  color: #5c5565;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.project .visit {
+  background-color: white;
+  color: #6f6a77;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 25px;
+  font-size: 13px;
+  border: 1px solid #bbb;
+  transition: 0.3s;
+}
+
+.project .visit:hover {
+  background-color: #ece7f0;
+  color: #000;
+}
+
+
+
+.project-thumbnail {
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 4px 4px 2px 6px rgba(28, 1, 25, 0.1);
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.social-icons img {
+  width: 35px;
+  height: 35px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.social-icons img:hover {
+  opacity: 1;
+}
