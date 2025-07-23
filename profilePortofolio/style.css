@@ -101,3 +101,20 @@ body {
 .social-icons img:hover {
   opacity: 1;
 }
+
+.visit {
+  display: inline-block;
+  margin: 8px 4px;
+  background: white;
+  color: #8e8592;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.visit:hover {
+  background-color: #ece7f0;
+}
