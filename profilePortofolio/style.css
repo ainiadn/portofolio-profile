@@ -153,3 +153,35 @@ body {
   left: 0;
   color: #fff;
 }
+
+#funfact-box {
+  text-align: center;
+}
+
+#funfact-text {
+  font-size: 14px;
+  min-height: 40px;
+  transition: opacity 0.3s ease-in-out;
+  margin-bottom: 12px;
+}
+
+#funfact-btn {
+  padding: 8px 14px;
+  background-color: #fff;
+  color: #6a4b78;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#funfact-btn:hover {
+  background-color: #e5d9eb;
+}
+
+.read-more {
+  font-size: 15px;
+  color: #815e9c;
+}
